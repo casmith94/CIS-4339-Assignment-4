@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <script type = "text/javascript" src = "http://code.jquery.com/jquery-latest.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>CIS 4339</title>
+    </head>
+    <body>
+        <h1>Christopher Smith - Assignment 4</h1>
+        <div id="main-container">
+          <div id="flag-container">
+            <img src="" alt="">
+          </div>
+          <div id="info-container">
+            <select id="countries"></select>
+            <p>Capital: <span id="capital"></span></p>
+            <p>Region: <span id="region"></span></p>
+          </div>
+          <div id = "region-container">
+            <br><br>
+            <select id = "regions" onchange = "displayRegion()">
+            </select>
+            <p id ="regCC"></p>
+        </div>
+        <script src="main.js"></script>
+      </body>
+    </html>
